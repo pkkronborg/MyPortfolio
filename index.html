@@ -18,14 +18,23 @@
     ></script>
   </head>
   <body>
-    <header></header>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
     <main>
-      <div class="about">
+      <section id="about" class="hero">
+        <img src="images/PerKristian.jpg" alt="Per Kristian Kronborg" />
         <h1>Welcome</h1>
         <p>My name is Per Krisitan and this is my portfolio</p>
-      </div>
-      <div class="projects">
-        <h2>My projects</h2>
+      </section>
+      <section id="projects">
+        <h2>My Projects</h2>
         <div class="card_container">
           <div class="card">
             <img src="images/GH1.jpg" alt="home page of GameHub website" />
@@ -87,24 +96,90 @@
               ></a>
             </div>
           </div>
+          <div class="card">
+            <img src="images/Auction.jpg" alt="Home page of Auction website" />
+            <h3>Auction</h3>
+            <p>Webiste for an auction site for semester project 2 at Noroff.</p>
+            <p>Created with JS and Bootstrap</p>
+            <div class="links">
+              <a
+                href="https://github.com/pkkronborg/auction"
+                aria-label="GitHub repository for Auction project"
+                ><i class="fab fa-github fa-2x"></i
+              ></a>
+              <a
+                href="https://boisterous-madeleine-686f2a.netlify.app/"
+                aria-label="Live Website Auction project"
+                ><i class="fas fa-globe fa-2x"></i
+              ></a>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="images/OnlineShop.jpg"
+              alt="Home page of Online Shop website"
+            />
+            <h3>Online Shop</h3>
+            <p>
+              Webiste for an online shop for javascript framework project at
+              Noroff.
+            </p>
+            <p>Created with React and Bootstrap</p>
+            <div class="links">
+              <a
+                href="https://github.com/pkkronborg/js-frameworks-ca"
+                aria-label="GitHub repository for Online Shop project"
+                ><i class="fab fa-github fa-2x"></i
+              ></a>
+              <a
+                href="https://endearing-gecko-5450bc.netlify.app/"
+                aria-label="Live Website Online Shop project"
+                ><i class="fas fa-globe fa-2x"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              src="images/Holidaze.jpg"
+              alt="Home page of Holidaze website"
+            />
+            <h3>Holidaze</h3>
+            <p>Webiste for a booking page for project exam 2 at Noroff.</p>
+            <p>Created with React and Bootstrap</p>
+            <div class="links">
+              <a
+                href="https://github.com/pkkronborg/project-exam-2"
+                aria-label="GitHub repository for Holidaze project"
+                ><i class="fab fa-github fa-2x"></i
+              ></a>
+              <a
+                href="https://cheery-gnome-f2c48c.netlify.app/"
+                aria-label="Live Website Holidaze project"
+                ><i class="fas fa-globe fa-2x"></i
+              ></a>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="contact">
+      </section>
+      <section id="contact" class="contact-section">
         <h2>Contact me</h2>
-        <p>Send me a message at Linkedin or Facebook</p>
-        <a
-          href="https://no.linkedin.com/in/per-kristian-kronborg"
-          aria-label="My linkedin profile"
-        >
-          <i class="fab fa-linkedin fa-3x"></i>
-        </a>
-        <a
-          href="https://facebook.com/per.k.kronborg"
-          aria-label="My linkedin profile"
-        >
-          <i class="fab fa-facebook fa-3x"></i>
-        </a>
-      </div>
+        <p>Feel free to reach out on LinkedIn or Facebook!</p>
+        <div class="social-links">
+          <a
+            href="https://no.linkedin.com/in/per-kristian-kronborg"
+            aria-label="My linkedin profile"
+          >
+            <i class="fab fa-linkedin fa-2x"></i>
+          </a>
+          <a
+            href="https://facebook.com/per.k.kronborg"
+            aria-label="My linkedin profile"
+          >
+            <i class="fab fa-facebook fa-2x"></i>
+          </a>
+        </div>
+      </section>
     </main>
     <footer></footer>
   </body>
